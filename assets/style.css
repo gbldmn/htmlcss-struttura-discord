@@ -23,6 +23,7 @@ border: 2px solid red
     height: 300px;
     width: 600px;
     border: 1px solid red;
+    background-color: pink;
 }
 /* caratteristiche contenitore centrale */
 .container-box {
@@ -31,13 +32,12 @@ border: 2px solid red
     height: 500px;
     border: 1px solid black;
 }
-    /* primi 2 box all'interno del contenitore */
-
- .flexbox {
-    display: flex;
-    flex-direction: row;
-
- }   
+.flexbox {
+   display: flex;
+   flex-direction: row;
+   }
+   /* primi 2 box all'interno del contenitore */
+  
  .child-1 {
     background-color: blue;
     height: 500px;
@@ -57,3 +57,42 @@ border: 2px solid red
     width: 50%;
     border: 1px solid blue;
   }
+ /* quarta fascia */
+ .final {
+    width: 80%;
+    margin: auto;
+    height: 700px;
+    border: 1px solid black;
+ }
+ .child-4 {
+    height: 600px;
+    width: 800px;
+    border: 1px solid red;
+    background-color: forestgreen;
+ }
+ .flex-finale {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+ }
+ .table {
+    width: 40%;
+    height: 350px;
+    background-color: blue;
+ }
+ .table-2 {
+    background-color: red;
+    width: 15%;
+    height: 350px;
+    border: 1px solid white
+ }
+
+.container-box-ultimo {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border-bottom: solid 1px;
+}
+
