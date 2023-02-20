@@ -1,0 +1,27 @@
+a* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* primo contenitore caratteristiche */
+.container {       
+height: 400px;
+margin: 0 auto;
+border: 2px solid red
+
+}
+
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ /* box centrale primo contenitore */
+.box-rosa {
+    height: 300px;
+    width: 600px;
+    border: 1px solid red;
+}
+/* caratteristiche contenitore centrale */
