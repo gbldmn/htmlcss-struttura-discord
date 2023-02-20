@@ -5,7 +5,7 @@ a* {
 }
 /* primo contenitore caratteristiche */
 .container {       
-height: 400px;
+height: 500px;
 margin: 0 auto;
 border: 2px solid red
 
@@ -25,3 +25,28 @@ border: 2px solid red
     border: 1px solid red;
 }
 /* caratteristiche contenitore centrale */
+.container-box {
+    width: 80%;
+    margin: auto;
+    height: 500px;
+    border: 1px solid black;
+}
+    /* primo box all'interno del contenitore */
+
+ .flexbox {
+    display: flex;
+    flex-direction: row;
+
+ }   
+ .child-1 {
+    background-color: blue;
+    height: 500px;
+    border: 1 px solid blue;
+    width: 70%;
+ }
+ .child-2 {
+    background-color: red;
+    height: 500px;
+    border: 1 px solid red;
+    width: 30%;
+ }
