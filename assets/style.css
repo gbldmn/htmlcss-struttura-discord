@@ -70,6 +70,7 @@ border: 2px solid red
     border: 1px solid red;
     background-color: forestgreen;
  }
+ /* fascia finale */
  .flex-finale {
     display: flex;
     flex-direction: row;
@@ -95,4 +96,11 @@ border: 2px solid red
     height: 500px;
     border-bottom: solid 1px;
 }
-
+ /* ultimo contenitore */
+.footer {
+    width: 80%;
+    margin: auto;
+    height: 100px;
+    background-color: black;
+    margin-top: 10px;
+}
